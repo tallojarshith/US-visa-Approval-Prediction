@@ -21,9 +21,12 @@ pip install -r requirements.txt
 
 ##workflow
 
-1.constant
-2.config_entity
-3.artifact_entity
-4.data_ingestion component
+1.constant   #here all the constant variables are defined
+
+2.config_entity  #here all the config paths are present
+
+3.artifact_entity #here output files are present like trained_file,test_file
+
+4.data_ingestion component 
 5.pipeline
 6.app.py
